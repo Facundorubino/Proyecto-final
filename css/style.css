@@ -93,7 +93,6 @@
   margin-top: 5%;
   font-weight: 200; }
 
-/*Propiedades Portfolio*/
 .portfolio h2 {
   font-size: 36px;
   color: #000; }
@@ -112,7 +111,6 @@
   font-size: 20px;
   font-weight: 200; }
 
-/*Propiedades Clientes*/
 .clientes .container h2 {
   font-size: 36px;
   color: #000; }
@@ -170,3 +168,7 @@
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover; }
+
+@media only screen and (min-width: 1400px) {
+  .body {
+    background-size: 100% !important; } }

@@ -8,16 +8,11 @@
 @import "components/listas";
 @import "components/mixins";
 
-// *{
-// 	border: 1px solid crimson;
-// }
 
 .body {
   font-family: "Poppins", sans-serif;
   background-image: url("../img/home.jpg");
- // background-size: cover;
   background-repeat: no-repeat;
-//   background-color: #202020;
 }
 
 .html {
@@ -80,13 +75,6 @@
   font-weight: nth($variables-fuentes, 3);
 }
 
-/*Propiedades Portfolio*/
-
-// .portfolio {
-//   background-image: url("../img/Portfolio.jpg");
-//   background-repeat: no-repeat;
-//   background-size: cover;
-// }
 
 .portfolio h2 {
   font-size: nth($encabezados, 1);
@@ -109,12 +97,6 @@
   font-weight: nth($variables-fuentes, 3);
 }
 
-/*Propiedades Clientes*/
-// .clientes {
-//   background-image: url("../img/clientes.jpg");
-//   background-repeat: no-repeat;
-//   background-size: cover;
-// }
 
 .clientes .container h2 {
   font-size: nth($encabezados, 1);
@@ -170,9 +152,6 @@
   .card {
     margin-bottom: 30px;
   }
-  // .img-area img {
-  // 	width: 100%;
-  // }
 }
 @media only screen and (max-width: 768px) {
   .navbar-nav {
@@ -191,3 +170,8 @@
   @include propiedades-main;
 }
 
+@media only screen and (min-width: 1400px) {
+  .body {
+    background-size: 100% !important;
+  }
+}
